@@ -1,0 +1,42 @@
+body {
+    background-color: #003542;
+    color: #fff;
+    font-weight: 300;
+    font-family: 'Share Tech Mono';
+    margin: 0 !important;
+}
+
+h1, p {
+    margin: 0;
+}
+
+header {
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+table {
+    margin-right: 250px;
+    font-size: 19px;
+}
+
+td {
+    border: 1px rgba(255, 255, 255, .25) solid;
+    padding: 5px 10px;
+}
+
+#current-date {
+    color: rgba(255, 255, 255, .5);
+}
+
+td:first-child {
+    color: rgba(255, 255, 255, .5);
+}
+
+#wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
